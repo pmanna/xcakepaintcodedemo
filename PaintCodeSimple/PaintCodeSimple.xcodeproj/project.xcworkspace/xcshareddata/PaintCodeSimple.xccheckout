@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9B56CAD7-C47D-45CA-A01D-0B7EC623E176</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PaintCodeSimple</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA4381894DA326F8BE8A5BA50AA8A5B8582802E9</key>
+		<string>https://github.com/pmanna/xcakepaintcodedemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PaintCodeSimple/PaintCodeSimple.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA4381894DA326F8BE8A5BA50AA8A5B8582802E9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pmanna/xcakepaintcodedemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA4381894DA326F8BE8A5BA50AA8A5B8582802E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA4381894DA326F8BE8A5BA50AA8A5B8582802E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XcakePaintCodeDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

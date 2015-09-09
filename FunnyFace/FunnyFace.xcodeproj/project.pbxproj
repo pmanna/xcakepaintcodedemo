@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D84B8BBF1B9F418E006299BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B8BBE1B9F418E006299BB /* main.m */; };
+		D84B8BC21B9F418E006299BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B8BC11B9F418E006299BB /* AppDelegate.m */; };
+		D84B8BC51B9F418E006299BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B8BC41B9F418E006299BB /* ViewController.m */; };
+		D84B8BC81B9F418E006299BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84B8BC61B9F418E006299BB /* Main.storyboard */; };
+		D84B8BCA1B9F418E006299BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84B8BC91B9F418E006299BB /* Images.xcassets */; };
+		D84B8BCD1B9F418E006299BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B8BCB1B9F418E006299BB /* LaunchScreen.xib */; };
+		D84B8BD91B9F418E006299BB /* FunnyFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B8BD81B9F418E006299BB /* FunnyFaceTests.m */; };
+		D8E527791B9F61E8008B4B07 /* FunnyStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E527781B9F61E8008B4B07 /* FunnyStyle.m */; };
+		D8E5277C1B9F6238008B4B07 /* FunnyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E5277B1B9F6238008B4B07 /* FunnyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D84B8BD31B9F418E006299BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D84B8BB11B9F418E006299BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84B8BB81B9F418E006299BB;
+			remoteInfo = FunnyFace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D84B8BB91B9F418E006299BB /* FunnyFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84B8BBD1B9F418E006299BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84B8BBE1B9F418E006299BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D84B8BC01B9F418E006299BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D84B8BC11B9F418E006299BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D84B8BC31B9F418E006299BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D84B8BC41B9F418E006299BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D84B8BC71B9F418E006299BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D84B8BC91B9F418E006299BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D84B8BCC1B9F418E006299BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D84B8BD21B9F418E006299BB /* FunnyFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84B8BD71B9F418E006299BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84B8BD81B9F418E006299BB /* FunnyFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunnyFaceTests.m; sourceTree = "<group>"; };
+		D8E527771B9F61E8008B4B07 /* FunnyStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyStyle.h; sourceTree = "<group>"; };
+		D8E527781B9F61E8008B4B07 /* FunnyStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyStyle.m; sourceTree = "<group>"; };
+		D8E5277A1B9F6238008B4B07 /* FunnyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyView.h; sourceTree = "<group>"; };
+		D8E5277B1B9F6238008B4B07 /* FunnyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D84B8BB61B9F418E006299BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84B8BCF1B9F418E006299BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D84B8BB01B9F418E006299BB = {
+			isa = PBXGroup;
+			children = (
+				D84B8BBB1B9F418E006299BB /* FunnyFace */,
+				D84B8BD51B9F418E006299BB /* FunnyFaceTests */,
+				D84B8BBA1B9F418E006299BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D84B8BBA1B9F418E006299BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D84B8BB91B9F418E006299BB /* FunnyFace.app */,
+				D84B8BD21B9F418E006299BB /* FunnyFaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D84B8BBB1B9F418E006299BB /* FunnyFace */ = {
+			isa = PBXGroup;
+			children = (
+				D84B8BC01B9F418E006299BB /* AppDelegate.h */,
+				D84B8BC11B9F418E006299BB /* AppDelegate.m */,
+				D84B8BC31B9F418E006299BB /* ViewController.h */,
+				D84B8BC41B9F418E006299BB /* ViewController.m */,
+				D8E5277A1B9F6238008B4B07 /* FunnyView.h */,
+				D8E5277B1B9F6238008B4B07 /* FunnyView.m */,
+				D8E527771B9F61E8008B4B07 /* FunnyStyle.h */,
+				D8E527781B9F61E8008B4B07 /* FunnyStyle.m */,
+				D84B8BC61B9F418E006299BB /* Main.storyboard */,
+				D84B8BC91B9F418E006299BB /* Images.xcassets */,
+				D84B8BCB1B9F418E006299BB /* LaunchScreen.xib */,
+				D84B8BBC1B9F418E006299BB /* Supporting Files */,
+			);
+			path = FunnyFace;
+			sourceTree = "<group>";
+		};
+		D84B8BBC1B9F418E006299BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D84B8BBD1B9F418E006299BB /* Info.plist */,
+				D84B8BBE1B9F418E006299BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D84B8BD51B9F418E006299BB /* FunnyFaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D84B8BD81B9F418E006299BB /* FunnyFaceTests.m */,
+				D84B8BD61B9F418E006299BB /* Supporting Files */,
+			);
+			path = FunnyFaceTests;
+			sourceTree = "<group>";
+		};
+		D84B8BD61B9F418E006299BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D84B8BD71B9F418E006299BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D84B8BB81B9F418E006299BB /* FunnyFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84B8BDC1B9F418E006299BB /* Build configuration list for PBXNativeTarget "FunnyFace" */;
+			buildPhases = (
+				D84B8BB51B9F418E006299BB /* Sources */,
+				D84B8BB61B9F418E006299BB /* Frameworks */,
+				D84B8BB71B9F418E006299BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunnyFace;
+			productName = FunnyFace;
+			productReference = D84B8BB91B9F418E006299BB /* FunnyFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D84B8BD11B9F418E006299BB /* FunnyFaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84B8BDF1B9F418E006299BB /* Build configuration list for PBXNativeTarget "FunnyFaceTests" */;
+			buildPhases = (
+				D84B8BCE1B9F418E006299BB /* Sources */,
+				D84B8BCF1B9F418E006299BB /* Frameworks */,
+				D84B8BD01B9F418E006299BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84B8BD41B9F418E006299BB /* PBXTargetDependency */,
+			);
+			name = FunnyFaceTests;
+			productName = FunnyFaceTests;
+			productReference = D84B8BD21B9F418E006299BB /* FunnyFaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D84B8BB11B9F418E006299BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Paolo;
+				TargetAttributes = {
+					D84B8BB81B9F418E006299BB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D84B8BD11B9F418E006299BB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D84B8BB81B9F418E006299BB;
+					};
+				};
+			};
+			buildConfigurationList = D84B8BB41B9F418E006299BB /* Build configuration list for PBXProject "FunnyFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D84B8BB01B9F418E006299BB;
+			productRefGroup = D84B8BBA1B9F418E006299BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D84B8BB81B9F418E006299BB /* FunnyFace */,
+				D84B8BD11B9F418E006299BB /* FunnyFaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D84B8BB71B9F418E006299BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84B8BC81B9F418E006299BB /* Main.storyboard in Resources */,
+				D84B8BCD1B9F418E006299BB /* LaunchScreen.xib in Resources */,
+				D84B8BCA1B9F418E006299BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84B8BD01B9F418E006299BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D84B8BB51B9F418E006299BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E527791B9F61E8008B4B07 /* FunnyStyle.m in Sources */,
+				D8E5277C1B9F6238008B4B07 /* FunnyView.m in Sources */,
+				D84B8BC51B9F418E006299BB /* ViewController.m in Sources */,
+				D84B8BC21B9F418E006299BB /* AppDelegate.m in Sources */,
+				D84B8BBF1B9F418E006299BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84B8BCE1B9F418E006299BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84B8BD91B9F418E006299BB /* FunnyFaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D84B8BD41B9F418E006299BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D84B8BB81B9F418E006299BB /* FunnyFace */;
+			targetProxy = D84B8BD31B9F418E006299BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D84B8BC61B9F418E006299BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84B8BC71B9F418E006299BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D84B8BCB1B9F418E006299BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84B8BCC1B9F418E006299BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D84B8BDA1B9F418E006299BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D84B8BDB1B9F418E006299BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D84B8BDD1B9F418E006299BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunnyFace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D84B8BDE1B9F418E006299BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunnyFace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D84B8BE01B9F418E006299BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunnyFaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunnyFace.app/FunnyFace";
+			};
+			name = Debug;
+		};
+		D84B8BE11B9F418E006299BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunnyFaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunnyFace.app/FunnyFace";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D84B8BB41B9F418E006299BB /* Build configuration list for PBXProject "FunnyFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84B8BDA1B9F418E006299BB /* Debug */,
+				D84B8BDB1B9F418E006299BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84B8BDC1B9F418E006299BB /* Build configuration list for PBXNativeTarget "FunnyFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84B8BDD1B9F418E006299BB /* Debug */,
+				D84B8BDE1B9F418E006299BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84B8BDF1B9F418E006299BB /* Build configuration list for PBXNativeTarget "FunnyFaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84B8BE01B9F418E006299BB /* Debug */,
+				D84B8BE11B9F418E006299BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D84B8BB11B9F418E006299BB /* Project object */;
+}
